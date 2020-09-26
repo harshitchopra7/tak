@@ -1,0 +1,49 @@
+.nav {
+    display: flex;
+    width: 100%;
+    position: sticky;
+}
+.logo-align {
+    display: flex;
+}
+.logo {
+    height: 90px;
+    width: auto;
+    padding-left: 30px;
+}
+.logo-name {
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.logo-name2 {
+    font-size: 30px;
+    font-weight: 800;
+}
+.logo-name3 {
+    margin-top: -20px;
+}
+.nav-contents {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.call { 
+    font-size: 18px;
+    margin-left: 50%;
+}
+.nav-contents2{
+    margin-top: 10px;
+    justify-content: space-evenly;
+    margin-left: 200px;
+}
+.individual {
+    font-size: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.decoration {
+    text-decoration: none;
+    color: black;
+}
